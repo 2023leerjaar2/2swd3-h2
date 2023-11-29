@@ -1,0 +1,39 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.recipe-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    max-width: 100%;
+}
+
+.recipe-container img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
